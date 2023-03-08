@@ -7,11 +7,11 @@ int main(int argc, char *argv[]) {
   
   if(strcmp(argv[1], "-a") == 0){
     int area = atoi(argv[3])*atoi(argv[5]);
-    printf("area = %d units", area);
+    printf("area = %d units\n", area);
   }
   if(strcmp(argv[1], "-p") == 0){
     int prmtr = 2*(atoi(argv[3])*atoi(argv[5]));
-    printf("perimeter = %d units", prmtr);
+    printf("perimeter = %d units\n", prmtr);
   }
   return 0;
 }
